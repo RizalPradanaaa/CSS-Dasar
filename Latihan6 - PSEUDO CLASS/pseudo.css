@@ -1,0 +1,41 @@
+/*Style default pd sebuah link (a mmliki href*/
+.helo:link {
+	color: orange;}
+
+/*Style ketika mouse berada diatas Link*/
+.helo:Hover {
+	color: pink;
+	font-family: arial;
+	font-size: 30px;}
+
+/*Style ketika link diklik (keadaan aktif*/
+.helo:active {
+	font-style: italic;}
+
+/*Style saat link pernah dikunkjungi*/
+.helo:visited {
+	color: black;}
+
+/*memilih element pertama dr sebuah parent(li) elm pmbungkus*/
+li:first-child a {
+	color: green;}
+
+/*mmlih element ke *N, (1,2-) pola (2n,3n)
+ganjil(even), genap (odd)*/
+li:nth-child(3n+2) a{
+	color: black;
+}
+
+/*memilih element terakhir*/
+li:last-child a{
+	color :red;
+}
+
+/*memilih element pertama dr sebuah jns/type tag*/
+p:first-of-type {
+	color:blue;
+}
+/*mmilih element terakhir*/
+p:last-of-type {
+	color: purple;
+}

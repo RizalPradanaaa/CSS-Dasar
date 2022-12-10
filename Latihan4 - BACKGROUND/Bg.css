@@ -1,0 +1,25 @@
+body {
+
+/*background-color mengatur warna background*/
+	background-color: #DC17E3;
+	/*background-color: pink;*/
+	/*background-color: rgb(220, 23,227);*/
+
+/*background-image mengganti beckgound dengan gambar*/
+	background-image: url(gambar/makima.png);
+
+/*background-repeat untuk mengulang gambar berdasarkan
+sumbu X Y
+*jika tidak diberi gmbr yng ukurannya kcil otomatis mengulang*/
+
+	/*background-repeat: no-repeat;*/ /*tidak ad pengulangan*/
+	background-repeat: repeat-y;	 /*yng diulang smbu y*/
+	/*background-repeat: repeat-x;*/ /*yng diulang sumbu x*/
+
+/*background posisi mengatur posisi gambar
+*bisa digunakan bila backgroun-repeat aktif */
+	background-position: top center;
+
+/*mengatur ukuran gambar*/
+	background-size: 10%;
+}

@@ -1,0 +1,31 @@
+/*jika css nya seperti dibawah mka warnanya akan hijau dulu
+kemudian hasilnya biru karena ditimpa*/
+/*body{
+	color: green;
+}
+body{
+	color: blue;
+}*/
+
+
+/*jika seperti dibawah maka semua bewarna merah karena
+.favorit(class) kurang kuat dari id*/
+
+/*ol#sarapan li{
+	color: red;
+}
+.favorit{
+	color: black;
+}*/
+
+/*warna mie akan hitam karena selector sudah diperkuat*/
+ol#sarapan li{
+	color: red;
+}
+ol#sarapan li.favorit {
+	color: black;
+}
+
+/*Inline - Id - Class - Element html
+   	0       0      0         0
+*/

@@ -1,0 +1,32 @@
+/*Selector dgn element HTML*/
+body { font-family: arial;
+ }
+
+h1, h2{
+	color: green;
+}
+
+ul li a {
+	color: red;
+}
+
+ol li a {
+	color: orange;
+}
+
+/*Selector dengan ID*/
+#p1 {
+	color: blue;
+}
+
+/*Selector dengan Class*/
+.p2 {
+	color: brown;
+}
+
+.cetak-tebal{
+	font-weight: bold;
+}
+p.cetak-tebal{
+	font-size: 40px;
+}

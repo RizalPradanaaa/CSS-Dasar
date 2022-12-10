@@ -1,0 +1,26 @@
+/*font-family : mengatur jenis font yang digunakan.
+*sans-serif sebagai "Generic Family" */
+h3 {font-family: arial, verdana, sans-serif;}
+
+/*font-size : untuk mengatur ukuran font.
+Px, %, em*/
+h3 {font-size: 25px}
+
+/*font-weight : mengatur ketebalan font.
+normal, lighter, 100-900, bold, bolder*/
+h3 {font-weight: bold;}
+
+/*font-variant : mengubah font menjadi small-caps/
+kapital.
+normal, small-caps*/
+h3 {font-variant: small-caps;}
+
+/*font-style : untuk mengubah font bercetak miring.
+normal,
+italic : akan memilih versi italic dari font tersebut
+oblique : jika font punya tdk pnya versi italic maka
+akn diubah paksa mnjd miring */
+h3{font-style: oblique; }
+
+/*line-height : mengatur spaci antar baris*/
+p{line-height: 25Px}

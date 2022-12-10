@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pseudo : Target</title>
+	<style>
+		:target{
+			background-color: salmon;
+		/*akan berubah jika diberi #judul di url web browser*/
+		}
+
+
+		/*menggunakn id dan class*/
+		.satu:target{
+			background-color: red;
+		}
+
+		.dua:target{
+			background-color: yellow;
+		}
+
+		.tiga:target{
+			background-color: green;
+		}
+
+		/*langsung dngan id*/
+		#empat:target{
+			background-color: aqua;
+		}
+
+
+
+
+	</style>
+</head>
+<body>
+	<ul>
+		<li>
+			<a href="#1">Klik disini 1</a>
+		</li>
+		<li>
+			<a href="#2">Klik disini 2</a>
+		</li>
+		<li>
+			<a href="#3">Klik disini 3</a>
+		</li>
+	</ul>
+
+	<h1 id="judul">Hello World</h1>
+
+	<p class="satu" id="1">paragraf 1</p>
+	<p class="dua" id="2">paragraf 2</p>
+	<p class="tiga" id="3">paragraf 3</p>
+
+	<hr>
+	<a href="#4">klik 4 boss!!</a>
+	<p id="4">ini berubah nanti</p>
+</body>
+</html>

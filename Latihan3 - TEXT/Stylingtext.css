@@ -1,0 +1,38 @@
+p{
+/*Color Untuk mengganti warna font*/
+	color: #DC17E3; 					/* Hexadecimal*/
+	/*color: pink;*/					/* Nama Warna*/
+	/*color: rgb(220, 23 ,227);*/		/* RGB*/
+
+/*text-align mengatur format text*/
+	text-align: justify; 				/*Rata Kanan-Kiri*/
+	/*text-align: center;*/				/*Rata Tengah*/
+	/*text-align: left;*/ 				/*Rata Kiri*/
+	/*text-align: right;*/ 				/*Rata Kanan*/
+
+/*text-indent mengatur indentasi text/paragraf*/
+	text-indent: 100px;
+
+/*text-decoration mengatur dekorasi pd teks*/
+	text-decoration: overline;			/*Garis Atas*/
+	/*text-decoration: line-through;	/*Garis Tengah*/
+	/*text-decoration: underline; 		/*Garis Bawah*/
+
+/*text-transfrom mengubah hruf mnjadi
+besar/kecil/kapital*/
+	text-transform: capitalize;			/*awl kta kapital*/
+	/*text-transform: lowercase;*/		/*kecil*/
+	/*text-transform: uppercase;*/		
+
+/*mengatur spasi antar huruf*/
+	letter-spacing: 1px ;
+
+/*mengatur spasil antar kata*/
+	word-spacing: 10px;
+
+
+}
+
+a{
+
+}
